@@ -1,0 +1,9 @@
+<li class="container list-group-item d-flex justify-content-between">
+  <div>
+    <%= user.name %> (<%= user.user_type %>)
+  </div>
+  <div>
+    <a class="btn btn-danger" href="/admin?user=<%= user._id %>&type=admin" role="button">Promote to Admin</a>
+    <a class="btn btn-success" href="/admin?user=<%= user._id %>&type=user" role="button">Demote to User</a>
+  </div>
+</li>

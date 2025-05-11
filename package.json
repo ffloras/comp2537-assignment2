@@ -1,11 +1,19 @@
 {
-  "name": "assignment1",
+  "name": "assignment2",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/ffloras/comp2537-assignment2#readme",
+  "bugs": {
+    "url": "https://github.com/ffloras/comp2537-assignment2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffloras/comp2537-assignment2.git"
+  },
   "license": "ISC",
   "author": "",
   "type": "commonjs",
-  "main": "assignment1.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,9 +21,11 @@
     "bcrypt": "^5.1.1",
     "connect-mongo": "^5.1.0",
     "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
     "express": "^5.1.0",
     "express-session": "^1.18.1",
     "joi": "^17.13.3",
-    "mongodb": "^6.16.0"
+    "mongodb": "^6.16.0",
+    "url": "^0.11.4"
   }
 }
